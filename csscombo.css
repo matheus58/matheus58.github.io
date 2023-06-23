@@ -1,0 +1,130 @@
+body{
+    background-color: #808080;
+    font-size: large;
+}
+.nome{
+    text-align: center;
+    color: #808080;
+}
+header {
+  background-color: #000000;
+  padding: 10px;
+}
+h1{
+    margin: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Alinhar ao centro */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #808080;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+
+h1{
+    font-family: "Arial Rounded", Arial, sans-serif;
+}
+.menu{
+    display: flex;
+}
+.products-grid {
+    margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Exibe os produtos em 3 colunas */
+  grid-gap: 20px; /* Espaçamento entre os produtos */
+  font-family: "Arial Rounded", Arial, sans-serif;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 200px; /* Largura da imagem do produto */
+  height: auto; /* Altura ajustada automaticamente proporcionalmente */
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin-top: 10px; /* Espaçamento superior do título */
+}
+
+.product p {
+  margin-top: 5px; /* Espaçamento superior da descrição */
+}
+.add-to-cart {
+  background-color: #000000; /* Cor de fundo do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 8px 16px; /* Espaçamento interno do botão */
+  border: none; /* Remover borda */
+  border-radius: 4px; /* Arredondamento das bordas */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+.add-to-cart:hover {
+  background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.carinho{
+    display: flex;
+}
+.carinho input{
+    width: 30px;
+    height: 15px;
+}
+.car001{
+    background-color: aliceblue;
+}
+.total{
+    background-color:  #000000;
+    color: white;
+}
+footer {
+ height: 500px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color:#808080 ;
+}
+
+.rodape {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  margin-top: 20px;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.map {
+  flex: 1;
+}
+
+
+
+
+
+

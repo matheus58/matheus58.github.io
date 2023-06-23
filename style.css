@@ -1,0 +1,89 @@
+body{
+    background-color: #808080;
+    font-size: large;
+}
+.nome{
+    text-align: center;
+    color: #808080;
+}
+header {
+  background-color: #000000;
+  padding: 10px;
+}
+h1{
+    margin: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Alinhar ao centro */
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #808080;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+div{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.home {
+  display: flex;
+  flex-direction: row-reverse; /* Inverte a ordem dos elementos */
+  align-items: center; /* Alinha verticalmente */
+}
+
+.home img {
+  width: auto; /* Largura da imagem */
+  height: 400px; /* Altura automática proporcional à largura */
+  margin-left: 30px; /* Espaçamento entre a imagem e o texto */
+  margin-right: 40px;
+}
+
+.home p {
+  margin-left: 10px; /* Espaçamento à esquerda para o texto */
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+footer {
+margin-left: 0px;
+ height: 500px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000000;
+  color:#808080 ;
+
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.map {
+  flex: 1;
+}
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Vinhos</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="csscombo.css" type="text/css" media="all">
+    </head>
+    <body>
+           <header>
+            <h1 class="nome">Ninkasi</h1>
+            <nav>
+                <ul>
+                    <li><a href="carinho.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="saite.html" target="_blank">HOME</a></li>
+                    <li><a href="combo.html" target="_blank">COMBO</a></li>
+                    <li><a href="vinhos.html" target="_blank">VINHOS</a></li>
+                    <li><a href="cervejas.html" target="_blank">CERVEJAS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+  <div class="products-grid">
+    <div class="product">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi7cBvfzUI8GzthpdzJ2H2ZqTm6a7KRk2o7A&usqp=CAU" alt="Produto 1">
+      <h5>Vinho Rosé Periquita 750ml</h5
+      <p>R$ 86,99</p>
+      <button onclick="comprar('Vinho Rosé Periquita',86.99)" class="add-to-cart">Adicionar ao Carrinho</button>
+
+    </div>
+    <div class="product">
+      <img src= "https://taafrl.vtexassets.com/arquivos/ids/158725-800-auto?v=637660241868970000&width=800&height=auto&aspect=true"alt="Produto 2">
+      <h5>Vinho Tinto Bolla Cabernet Sauvignon IGT 750ml</h5>
+      <p>R$ 134,99</p>
+      <button onclick="comprar('Vinho Tinto Bolla',134.99)" class="add-to-cart">Adicionar ao Carrinho</button>
+
+    </div>
+    <div class="product">
+        <img src="https://taafrl.vtexassets.com/arquivos/ids/161308-800-auto?v=638170773583400000&width=800&height=auto&aspect=true" alt="Produto 3">
+        <h5>Vinho Tinto Louis Jadot Bourgogne Gamay 750ml</h5>
+        <p>R$ 338,99</p>
+      <button onclick="comprar('Vinho Tinto Louis Jadot Bourgogne',338,99)" class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    <!-- Adicione mais divs .product para cada produto -->
+    </div>
+
+
+ <div class="products-grid">
+    <div class="product">
+      <img src="https://taafrl.vtexassets.com/arquivos/ids/161034-1600-auto?v=638092143481330000&width=1600&height=auto&aspect=true" alt="Produto 4">
+      <h5>Vinho Tinto Barbi Senza Solfiti IGT 750ml</h5>
+      <p>R$ 378,99</p>
+      <button onclick="comprar('Vinho Tinto Barbi Senza Solfiti',378.99)"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <div class="product">
+      <img src="https://taafrl.vtexassets.com/arquivos/ids/161038-800-auto?v=638092144210700000&width=800&height=auto&aspect=true" alt="Produto 5">
+      <h5>Vinho Tinto Fattoria dei Barbi Vigna del Fiore Brunello 750ml</h5>
+      <p>R$ 1383,99</p>
+      <button onclick="comprar('Vinho Tinto Fattoria dei Barbi Vigna del Fiore Brunello 750ml',1383.99)"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <div class="product">
+        <img src="https://taafrl.vtexassets.com/arquivos/ids/161496-800-auto?v=638228833565800000&width=800&height=auto&aspect=true" alt="Produto 6">
+        <h5>Pack Vinho Corvo Tinto 750 ml 01 Gf e 01 Decanter Itália</h5>
+        <p>R$ 125,9</p>
+        <button onclick="comprar('Pack Vinho Corvo Tinto 750 ml',125.9 )"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <!-- Adicione mais divs .product para cada produto -->
+    </div>
+
+    <hr color="#000000" size="1" style="margin-top: 20px;">
+
+    <!-- parte do carinho -->
+    <div class="car001">
+        <h3>Lista produtos</h3>
+        <hr color="#000000" size="1">
+        <ul id="listaProdutos"></ul>
+    </div>
+    <div class="total"  id="total"></div>
+
+    <!--rodape-->
+    <footer>
+        <div class="rodape">
+            <div class="text" >
+                <p>SAC: Entre em contato conosco para tirar dúvidas, obter suporte ou fazer sugestões. Estamos aqui para ajudar!</p>
+                <p>(62)9 9999-9999</p>
+                <p>Ninkasi@gmail.com</p>
+            </div>
+            <div class="map" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7678.286343206922!2d-47.850991799999996!3d-15.796402999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ca7c79181fb%3A0xee6604aff5969ec8!2sVila%20Planalto%20-%20Bras%C3%ADlia%2C%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1687441106158!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="carinho.js"></script>
+
+
+    </body>
+</html>

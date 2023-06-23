@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+       <title>combo</title>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="csscombo.css" type="text/css" media="all">
+    </head>
+    <body>
+           <header>
+            <h1 class="nome">Ninkasi</h1>
+            <nav>
+                <ul>
+                    <li><a href="carinho.html"><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="saite.html" target="_blank">HOME</a></li>
+                    <li><a href="combo.html" target="_blank">COMBO</a></li>
+                    <li><a href="vinhos.html" target="_blank">VINHOS</a></li>
+                    <li><a href="cervejas.html" target="_blank">CERVEJAS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+  <div class="products-grid">
+    <div class="product">
+      <img src="https://images.tcdn.com.br/img/img_prod/686651/combo_jumbo_festa_em_casa_2_gins_2_vodkas_16_energeticos_18_tonicas_35989421_1_91ae4619ec1049c5ab82ff65f0ae959d.jpg" alt="Produto 1">
+      <h5>COMBO JUMBO FESTA EM CASA - 2 GINS + 2 VODKAS + 16 ENERGÉTICOS + 18 TÔNICAS</h5>
+      <p>R$521</p>
+      <button onclick="comprar('Combo Jumbo Festa em Casa', 521)" class="add-to-cart">Adicionar ao Carrinho</button>
+
+    </div>
+    <div class="product">
+      <img src="https://cdn.awsli.com.br/800x800/2557/2557256/produto/201322526/vodkaredbull-0f01033153.jpg" alt="Produto 2">
+      <h5>Combo Vodka Absolut </h5>
+      <p>R$139,00</p>
+      <button onclick="comprar('Combo Vodka Absolut', 139)" class="add-to-cart">Adicionar ao Carrinho</button>
+
+    </div>
+    <div class="product">
+        <img src="https://images.tcdn.com.br/img/img_prod/686651/jack_daniel_s_trio_old_no_7_honey_fire_33627200_1_20190308181407.jpg" alt="">
+        <h5>KIT JACK DANIEL'S - OLD Nº7 + HONEY + FIRE</h5>
+        <p>R$389,70</p>
+      <button onclick="comprar('Kit Jack Daniel\'s', 389.70)" class="add-to-cart">Adicionar ao Carrinho</button>
+    </div>
+    <!-- Adicione mais divs .product para cada produto -->
+    </div>
+
+
+ <div class="products-grid">
+    <div class="product">
+      <img src="https://bullbev.com.br/fotografias/grande/2143.jpg" alt="Produto 1">
+      <h5>Combo 4x Gin Tanqueray Dry 750ML + 2 Taças de Vidro Tanqueray </h5>
+      <p>R$570</p>
+      <button onclick="comprar('Combo 4x Gin Tanqueray Dry 750ML',570 )"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <div class="product">
+      <img src="https://atm-accounts.s3-sa-east-1.amazonaws.com/23/files/thumbs/ovs7npni9ipiehdvo2qn-large.png" alt="Produto 2">
+      <h5>COMBO GIN BOMBAY 750ML + 5 REDBULL + 5 COPOS</h5>
+      <p>R$635,00</p>
+      <button onclick="comprar('COMBO GIN BOMBAY 750ML + 5 REDBULL + 5 COPOS',635)"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <div class="product">
+        <img src="https://images.tcdn.com.br/img/img_prod/686651/combo_beefeater_gin_750ml_beefeater_24_750ml_beefeater_pink_750ml_2_tacas_de_vidro_exclusivas_35989605_1_9346afd5a4c91a4feac43c95c286ddc7.jpg" alt="">
+        <h5>COMBO BEEFEATER GIN 750ML + BEEFEATER 24 750ML </h5>
+        <p>R$389,70</p>
+        <button onclick="comprar('COMBO BEEFEATER GIN 750ML + BEEFEATER 24 750ML',389,70)"class="add-to-cart">Adicionar ao Carinho</button>
+    </div>
+    <!-- Adicione mais divs .product para cada produto -->
+    </div>
+
+    <hr color="#000000" size="1" style="margin-top: 20px;">
+
+    <!-- parte do carinho -->
+    <div class="car001">
+        <h3>Lista produtos</h3>
+        <hr color="#000000" size="1">
+        <ul id="listaProdutos"></ul>
+    </div>
+    <div class="total"  id="total"></div>
+
+    <!--rodape-->
+    <footer>
+        <div class="rodape">
+            <div class="text" >
+                <p>SAC: Entre em contato conosco para tirar dúvidas, obter suporte ou fazer sugestões. Estamos aqui para ajudar!</p>
+                <p>(62)9 9999-9999</p>
+                <p>Ninkasi@gmail.com</p>
+            </div>
+            <div class="map" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7678.286343206922!2d-47.850991799999996!3d-15.796402999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ca7c79181fb%3A0xee6604aff5969ec8!2sVila%20Planalto%20-%20Bras%C3%ADlia%2C%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1687441106158!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="carinho.js"></script>
+
+    </body>
+</html>
